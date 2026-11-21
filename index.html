@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Header -->
     <header class="header transition-colors duration-500 fixed top-0 z-50 w-full flex items-center justify-between gap-5 py-4 px-4 md:px-8">
         <a aria-label="logo" href="/" class="text-2xl md:text-4xl font-medium text-white font-kaushan">travelo<span class="text-primary">r.</span></a>
 
@@ -53,7 +54,8 @@
             <i class="fas fa-bars text-[24px] text-white"></i>
         </button>
     </header>
-
+    
+    <!-- Hero -->
     <div class="hero overflow-hidden bg-[url('../Images/Index/Hero/slider-bg.jpg')] bg-cover bg-center relative min-h-screen">
         <div class="overlay bg-[#0003] min-h-screen py-24 xl:py-10 px-4 md:px-8 flex flex-col xl:flex-row gap-8 xl:gap-4">
     
@@ -79,12 +81,18 @@
                 </div>
             </div>
             <div class="w-full relative">
-                <img src="./Images/Index/Hero/right-pic.png" alt="hero-image"/>
+                <img src="./Images/Index/Hero/right-pic.png" alt="hero-image" class="xl:absolute xl:top-24 xl:right-30"/>
+                <div class="flex flex-col text-white absolute top-0 left-10 xl:right-30 xl:top-54">
+                    <span class="text-[22px] font-light font-Figtree rotate-[-15deg] italic leading-6.5">Get Up To</span>
+                    <span class="text-[82px] font-black font-Figtree rotate-[-15deg] italic leading-[0.75]">50%</span>
+                    <span class="text-[24px] font-bold font-Figtree rotate-[-15deg] italic leading-6">Discount</span>
+                </div
             </div>
 
         </div>
     </div>
 
+    <!-- SideBar -->
     <aside class="sideBar fixed z-50 top-0 bg-black w-full xl:w-120 h-screen transition-all duration-700 -translate-x-full">
         <button aria-label="close-information-menu" class="close cursor-pointer absolute top-5 right-5 w-9 h-9 bg-yellow flex items-center justify-center rounded-md">
             <i class="fa-solid fa-xmark text-[24px]"></i>
