@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #85d200;
+    --color-secondary: #066168;
+    --color-yellow: #ffaa0d;
+    --text-shadow-hero: 6px 18px 2px rgba(0 , 0 , 0 , 0.2);
+    --font-kaushan: "Kaushan Script", cursive;
+    --font-Figtree: "Figtree", sans-serif;;
+}

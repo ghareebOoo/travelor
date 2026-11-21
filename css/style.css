@@ -1,0 +1,26 @@
+@layer base{
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box; 
+    }
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    height: 8000px;
+}
+
+.hero h1{
+    animation: moveH1 6.0s ease-in-out infinite;
+}
+
+@keyframes moveH1 {
+    0% , 100%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(30px);
+    }
+}
+
